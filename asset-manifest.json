@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GreenBirdsReact/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/GreenBirdsReact/static/js/main.92e515fd.chunk.js",
-    "main.js.map": "/GreenBirdsReact/static/js/main.92e515fd.chunk.js.map",
+    "main.js": "/GreenBirdsReact/static/js/main.1486a944.chunk.js",
+    "main.js.map": "/GreenBirdsReact/static/js/main.1486a944.chunk.js.map",
     "runtime-main.js": "/GreenBirdsReact/static/js/runtime-main.3777de5a.js",
     "runtime-main.js.map": "/GreenBirdsReact/static/js/runtime-main.3777de5a.js.map",
     "static/js/2.a883a36f.chunk.js": "/GreenBirdsReact/static/js/2.a883a36f.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3777de5a.js",
     "static/js/2.a883a36f.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.92e515fd.chunk.js"
+    "static/js/main.1486a944.chunk.js"
   ]
 }
