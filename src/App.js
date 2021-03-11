@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-   <div>
-     <span>This is Aaqib and we are going to learn react. <b>Thank you</b></span>
-   </div>
-  );
+function Apps(str){
+  //return str + ' Example of Concatenation';
+  return `${str} string interpolation`;
 }
+
+const App = () => <div>{Apps('Hi, This is ')}</div>;
 
 export default App;
