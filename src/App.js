@@ -1,11 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Apps(str){
-  //return str + ' Example of Concatenation';
-  return `${str} string interpolation`;
-}
-
-const App = () => <div>{Apps('Hi, This is ')}</div>;
-
+const App = () => {
+  var users = [
+    { name: 'Robin', isDeveloper: true },
+    { name: 'Markus', isDeveloper: false },
+    { name: 'Wic', isDeveloper: true },
+  ];
+ 
+  return (
+    <ul>
+      {users
+        .filter(user => user.isDeveloper)
+        .map(user => <li>{user.name}</li>)
+      }
+    </ul>
+  );
+};
+ 
 export default App;
